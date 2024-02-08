@@ -1,0 +1,7 @@
+# PSADT module files
+/AppDeployToolkit
+# Executables(no codebase)
+*.exe
+*.exe.config
+# Allow exe files in the Files folder
+!Files/*.exe
