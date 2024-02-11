@@ -2,6 +2,7 @@
 
 #### This repository is to be downloaded, packaged as an .intunewin type of archive
   - To be posted with the following commands:
+  - 
 INSTALL:
 PowerShell.exe -ExecutionPolicy Bypass -File Deploy-Application.ps1 -DeploymentType Install
 
