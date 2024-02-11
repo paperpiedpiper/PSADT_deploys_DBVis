@@ -8,8 +8,8 @@ PowerShell.exe -ExecutionPolicy Bypass -File Deploy-Application.ps1 -DeploymentT
 UNINSTALL:
 PowerShell.exe -ExecutionPolicy Bypass -File Deploy-Application.ps1 -DeploymentType Uninstall
 
-# =========================================================================
+# ==========================================================================
 
 As per the app owner's ticket, this install wrapper also does:
 - Start folder cleanup
-- Sets the app to never update automatically .. does this for all users using ActiveSetup mechanism (that runs another .ps1 on profile login)
+- Sets the app to never update automatically .. does this for all users using ActiveSetup mechanism (that runs .ps1 from Supported Files dir on profile login)
