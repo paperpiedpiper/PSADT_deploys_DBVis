@@ -8,7 +8,7 @@ PowerShell.exe -ExecutionPolicy Bypass -File Deploy-Application.ps1 -DeploymentT
 UNINSTALL:
 PowerShell.exe -ExecutionPolicy Bypass -File Deploy-Application.ps1 -DeploymentType Uninstall
 
-# ==========================================================================
+# =========================================================================
 
 As per the app owner's ticket, this install wrapper also does:
 - Start folder cleanup
